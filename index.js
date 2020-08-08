@@ -1,3 +1,5 @@
+document.querySelector(".btn").addEventListener("click", randomNumber);
+
 function randomNumber() {
     var randomNumber1 = (Math.random() * 6 | 0) + 1;
     var randomNumber2 = (Math.random() * 6 | 0) + 1;
